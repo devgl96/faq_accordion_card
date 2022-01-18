@@ -1,93 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    @media (min-width: 768px) {
-
-    }
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="styles.css" type="text/css" >
 </head>
 <body>
   <div class="container">
     <div class="content">
-      <div class="heading-faq">
-        FAQ 
+      <div class="image-faq">
+        <div class="image-desktop">
+          <div class="image1">
+            <img src="images/illustration-woman-online-desktop.svg" alt="Illustration Woman Online Desktop">
+            <img src="images/illustration-box-desktop.svg" alt="Illustration Box Desktop">
+          </div>
+          <div class="image2">
+            <img src="images/bg-pattern-desktop.svg" alt="Background Pattern Desktop">
+          </div>
+        </div>
+        <div class="image-mobile">
+          <div class="image1">
+            <img src="images/illustration-woman-online-mobile.svg" alt="Illustration Woman Online Mobile">
+          </div>
+          <div class="image2">
+            <img src="images/bg-pattern-mobile.svg" alt="Background Pattern Mobile">
+          </div>
+        </div>
       </div>
       <div class="faq-section">
+        <div class="heading-faq">
+          FAQ 
+        </div>
         <!-- Question 1 -->
         <div class="question-faq">
           <div class="question">
             <p>How many team members can I invite?</p>
+            <img src="images/icon-arrow-down.svg" alt="Icon arrow down">
           </div>
           <div class="answer">
             <p>You can invite up to 2 additional users on the Free plan. There is no limit on 
-            team members for the Premium plan.</p>
+              team members for the Premium plan.</p>
           </div>
+          <hr>
         </div>
 
         <!-- Question 2 -->
         <div class="question-faq">
           <div class="question">
             <p>What is the maximum file upload size?</p>
+            <img src="images/icon-arrow-down.svg" alt="Icon arrow down">
           </div>
           <div class="answer">
             <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
           </div>
+          <hr>
         </div>
 
         <!-- Question 3 -->
         <div class="question-faq">
           <div class="question">
             <p>How do I reset my password?</p>
+            <img src="images/icon-arrow-down.svg" alt="Icon arrow down">
           </div>
           <div class="answer">
             <p>Click “Forgot password” from the login page or “Change password” from your profile page.
               A reset link will be emailed to you.</p>
           </div>
+          <hr>
         </div>
 
         <!-- Question 4 -->
         <div class="question-faq">
           <div class="question">
             <p>Can I cancel my subscription?</p>
+            <img src="images/icon-arrow-down.svg" alt="Icon arrow down">
           </div>
           <div class="answer">
             <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
           </div>
+          <hr>
         </div>
 
         <!-- Question 5 -->
         <div class="question-faq">
           <div class="question">
             <p>Do you provide additional support?</p>
+            <img src="images/icon-arrow-down.svg" alt="Icon arrow down">
           </div>
           <div class="answer">
             <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
           </div>
+          <hr>
         </div>
       </div>
     </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
   </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <script type="text/javascript" src="index.js"></script>
 </body>
+
 </html>
